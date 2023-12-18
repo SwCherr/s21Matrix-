@@ -34,7 +34,8 @@ S21Matrix::S21Matrix(const S21Matrix& o) : S21Matrix(o.rows_, o.cols_) {
   }
 }
 
-S21Matrix::S21Matrix(S21Matrix&& o) : rows_(o.rows_), cols_(o.cols_), matrix_(o.matrix_) {
+S21Matrix::S21Matrix(S21Matrix&& o)
+    : rows_(o.rows_), cols_(o.cols_), matrix_(o.matrix_) {
   o.rows_ = 0;
   o.cols_ = 0;
   o.matrix_ = nullptr;

@@ -36,8 +36,7 @@ S21Matrix& S21Matrix::operator=(S21Matrix& o) {
 // ----- оператор перемещения -----
 S21Matrix& S21Matrix::operator=(S21Matrix&& o) {
   if (this != &o) {
-    if (this->matrix_)
-      this->~S21Matrix();
+    if (this->matrix_) this->~S21Matrix();
     std::swap(rows_, o.rows_);
     std::swap(cols_, o.cols_);
     std::swap(matrix_, o.matrix_);

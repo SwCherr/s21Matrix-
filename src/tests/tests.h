@@ -16,4 +16,4 @@ class S21MatrixTest : public testing::Test {
   S21Matrix *test_matrix_44;
 };
 
-#endif // __CPP1_S21_MATRIXPLUS_SRC_TESTS_TESTS_H__
+#endif  // __CPP1_S21_MATRIXPLUS_SRC_TESTS_TESTS_H__

@@ -2,6 +2,7 @@
 #define __CPP1_S21_MATRIXPLUS_SRC_PROJECT_S21MATRIX_H__
 
 #include <math.h>
+
 #include <iostream>
 
 class S21Matrix {
@@ -48,4 +49,4 @@ class S21Matrix {
   S21Matrix GetMinor(int cur_row, int cur_col);
 };
 
-#endif // __CPP1_S21_MATRIXPLUS_SRC_PROJECT_S21MATRIX_H__
+#endif  // __CPP1_S21_MATRIXPLUS_SRC_PROJECT_S21MATRIX_H__
